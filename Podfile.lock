@@ -1,0 +1,12 @@
+PODS:
+  - ImagePicker (2.1.0)
+
+DEPENDENCIES:
+  - ImagePicker
+
+SPEC CHECKSUMS:
+  ImagePicker: c0dd40026df3039ddd4b6f61433a96224d56d63b
+
+PODFILE CHECKSUM: 4fb87a6a3db0d86ca4fb9c3e9cc1609dd4d3fff2
+
+COCOAPODS: 1.1.0.rc.2
