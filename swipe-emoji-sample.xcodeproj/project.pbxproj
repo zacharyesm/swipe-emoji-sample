@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14E4E5221E8EDF4400C19102 /* CardSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4E51E1E8EDF4400C19102 /* CardSliderViewController.swift */; };
+		14E4E5231E8EDF4400C19102 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4E51F1E8EDF4400C19102 /* CardView.swift */; };
+		14E4E5241E8EDF4400C19102 /* EmojiOptionsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4E5201E8EDF4400C19102 /* EmojiOptionsOverlay.swift */; };
+		14E4E5251E8EDF4400C19102 /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4E5211E8EDF4400C19102 /* ImageCard.swift */; };
 		738CF3981E8C5666007BEF1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738CF3971E8C5666007BEF1E /* AppDelegate.swift */; };
 		738CF39A1E8C5666007BEF1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738CF3991E8C5666007BEF1E /* ViewController.swift */; };
 		738CF39D1E8C5666007BEF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738CF39B1E8C5666007BEF1E /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		007D45E67199D0B00D3F747A /* Pods_swipe_emoji_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swipe_emoji_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E4E51E1E8EDF4400C19102 /* CardSliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardSliderViewController.swift; path = Resources/CardSliderViewController.swift; sourceTree = "<group>"; };
+		14E4E51F1E8EDF4400C19102 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Resources/CardView.swift; sourceTree = "<group>"; };
+		14E4E5201E8EDF4400C19102 /* EmojiOptionsOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmojiOptionsOverlay.swift; path = Resources/EmojiOptionsOverlay.swift; sourceTree = "<group>"; };
+		14E4E5211E8EDF4400C19102 /* ImageCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCard.swift; path = Resources/ImageCard.swift; sourceTree = "<group>"; };
 		738CF3941E8C5666007BEF1E /* swipe-emoji-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swipe-emoji-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		738CF3971E8C5666007BEF1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		738CF3991E8C5666007BEF1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		140D6DF71E8EDD6200034900 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14E4E51E1E8EDF4400C19102 /* CardSliderViewController.swift */,
+				14E4E51F1E8EDF4400C19102 /* CardView.swift */,
+				14E4E5201E8EDF4400C19102 /* EmojiOptionsOverlay.swift */,
+				14E4E5211E8EDF4400C19102 /* ImageCard.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		31553C9A845C33FDE633E3FB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +97,7 @@
 		738CF3961E8C5666007BEF1E /* swipe-emoji-sample */ = {
 			isa = PBXGroup;
 			children = (
+				140D6DF71E8EDD6200034900 /* Resources */,
 				738CF3971E8C5666007BEF1E /* AppDelegate.swift */,
 				738CF3991E8C5666007BEF1E /* ViewController.swift */,
 				738CF39B1E8C5666007BEF1E /* Main.storyboard */,
@@ -212,7 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E4E5221E8EDF4400C19102 /* CardSliderViewController.swift in Sources */,
+				14E4E5251E8EDF4400C19102 /* ImageCard.swift in Sources */,
 				738CF39A1E8C5666007BEF1E /* ViewController.swift in Sources */,
+				14E4E5241E8EDF4400C19102 /* EmojiOptionsOverlay.swift in Sources */,
+				14E4E5231E8EDF4400C19102 /* CardView.swift in Sources */,
 				738CF3981E8C5666007BEF1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
